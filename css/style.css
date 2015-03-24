@@ -1,5 +1,5 @@
 body {
-    background-color: #eaeaea;
+    background-color: #838383;
 }
 
 p {
@@ -46,12 +46,12 @@ header h1 {
 }
 
 #breadcrumb {
-    background: #dcdcdc url("../img/house.png") 3px center no-repeat;
+    background: #ffd400 url("../img/house.png") 3px center no-repeat;
     padding: 10px 5px 10px 40px;
     border: 1px solid #00aeef;
     border-radius: 3px;
-    box-shadow: 1px 1px 3px #c2c2c2;
-    color: #245674;
+    box-shadow: 1px 1px 3px #0fb502;
+    color: rgba(36, 86, 116, 0.82);
 }
 
 .clear {
@@ -63,7 +63,7 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: #3b8dbd;
+    background-color: rgba(15, 181, 2, 0.98);
     color: #ffffff;
     font-size: 0.9em;
     padding: 8px;
@@ -73,8 +73,8 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #00aeef;
-    border-bottom: 1px solid #00aeef;
+    background-color: #0fb502;
+    border-bottom: 1px solid #0fb502;
     height: 40px;
     font-weight: bold;
 }
@@ -102,7 +102,7 @@ footer {
 }
 
 #top-menu div ul a:hover {
-    color: #29a7e1;
+    color: #0fb502;
     background: #ffffff;
 }
 #top-menu div ul a:active {
@@ -120,12 +120,12 @@ footer {
     background: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
-    border-color: #00aeef;
+    border-color: #ffd400;
     box-shadow: 1px 1px 3px #c2c2c2;
 }
 
 .widget .header {
-    background: #3b8dbd url("../img/toggle-collapse.png") 15px center no-repeat;
+    background: #ffd400 url("../img/toggle-collapse.png") 15px center no-repeat;
     color: #ffffff;
     padding: 15px;
     text-align: right;
@@ -140,7 +140,7 @@ footer {
 }
 
 .widget .content p {
-    border-bottom: 1px solid #d2d2d2;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.81);
     padding: 10px 0;
 }
 
@@ -170,4 +170,96 @@ footer {
     padding: 5px;
     margin: 5px;
     border: 1px solid gray;
+}
+
+.cards-table{
+    margin-top: 10px;
+}
+.card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 60px;
+    height: 100px;
+   padding: 5px;
+    background: rgba(225, 16, 3, 0.70);
+    float: left;
+}
+
+.card-symbol{
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+}
+.card-name-bottom{
+    margin-top: 10px;
+    transform: rotate(-180deg);
+    color: #ffffff;
+}
+.top{
+    color: #ffffff;
+}
+
+
+#banner {
+    moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 100%;
+    height: 330px;
+    background-color: #333;
+    margin: 2px 2px 2px 2px;
+}
+div {
+    display: block;
+}
+.accordionWrapper {
+    display: inline;
+    background-color: #333;
+    overflow: hidden;
+    margin: 10px 20px 11px 11px;
+}
+.set1 {
+    background-color: #669900;
+}
+.accordionWrapper div.title {
+    cursor: pointer;
+}
+.accordionWrapper div {
+    display: inline;
+    float: left;
+    margin: auto;
+}
+.accordionWrapper img {
+    vertical-align: top;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.set2 {
+    background-color: #cc6600;
+}
+.accordionWrapper img {
+    vertical-align: top;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+script {
+    display: none;
+}
+.main {
+    width: 1100px;
+    margin: 10px auto;
+    text-align: left;
+    z-index: 100;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #a8a89f;
 }
